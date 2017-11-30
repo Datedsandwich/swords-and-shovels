@@ -137,6 +137,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4405580305738926}
   - component: {fileID: 108414958088950504}
+  - component: {fileID: 111455481791434556}
   m_Layer: 0
   m_Name: Point light (1)
   m_TagString: Untagged
@@ -253,8 +254,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1421105570494274}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.348, y: 0.719, z: 11.711}
+  m_LocalRotation: {x: -0, y: 0.81596655, z: -0, w: 0.5780992}
+  m_LocalPosition: {x: 19.077, y: 0.274, z: 12.149}
   m_LocalScale: {x: 0.93, y: 0.93, z: 0.93}
   m_Children:
   - {fileID: 4773919287723756}
@@ -687,7 +688,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 0.5529412, b: 0.14705884, a: 1}
   m_Intensity: 3
-  m_Range: 5
+  m_Range: 3
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -712,6 +713,21 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!111 &111455481791434556
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1643210530448222}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: dde7ac44d1e8f6343ba62a34f9564b93, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: dde7ac44d1e8f6343ba62a34f9564b93, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!198 &198477434095019276
 ParticleSystem:
   m_ObjectHideFlags: 1
