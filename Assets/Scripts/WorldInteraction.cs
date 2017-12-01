@@ -15,7 +15,7 @@ public class WorldInteraction : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
-		if(Input.GetMouseButton(0) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
+		if(Input.GetMouseButtonDown(0) && !UnityEngine.EventSystems.EventSystem.current.IsPointerOverGameObject())
         {
             GetInteraction();
         }
