@@ -4,6 +4,7 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Assets/Audio/Clips*
 /Assets/Meshes*
 /Assets/Textures*
 
